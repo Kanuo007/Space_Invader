@@ -310,7 +310,7 @@
 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 0.0 12 -1 -1 -1 -1 -1 -1 0 0 1 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1           0 6911 0 4 3 85
+-1 -1           0 6910 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -676,8 +676,7 @@
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 0 17 3 37 #";; log->lon : Listof[Grade] -> Listof"
-0 0 17 3 8 #"[Number]"
+0 0 17 3 45 #";; log->lon : Listof[Grade] -> Listof[Number]"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 17 3 25 #";; Given a list of grade,"
@@ -3033,7 +3032,7 @@
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #" "
-0 12           4 4 5950
+0 12           4 69 5950
 (
  #"(#(struct:crop (#(struct:point 0 0) #(struct:point 500 0) #(struct:p"
  #"oint 500 500) #(struct:point 0 500)) #(struct:translate 0 0 #(struct"
@@ -3193,7 +3192,7 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #" "
-0 12           4 4 1067
+0 12           4 69 1067
 (
  #"(#(struct:crop (#(struct:point 0 0) #(struct:point 500 0) #(struct:p"
  #"oint 500 500) #(struct:point 0 500)) #(struct:translate 0 0 #(struct"
@@ -3331,7 +3330,7 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #" "
-0 12           4 4 1703
+0 12           4 69 1703
 (
  #"(#(struct:crop (#(struct:point 0 0) #(struct:point 500 0) #(struct:p"
  #"oint 500 500) #(struct:point 0 500)) #(struct:translate 0 0 #(struct"
@@ -3398,7 +3397,7 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #" "
-0 12           4 4 1471
+0 12           4 69 1471
 (
  #"(#(struct:crop (#(struct:point 0 0) #(struct:point 500 0) #(struct:p"
  #"oint 500 500) #(struct:point 0 500)) #(struct:translate 0 0 #(struct"
@@ -6974,7 +6973,7 @@
 0 0 24 3 1 #"("
 0 0 15 3 6 #"define"
 0 0 24 3 2 #" ("
-0 0 14 3 21 #"health-equal-to-zero?"
+0 0 14 3 9 #"end-game?"
 0 0 24 3 1 #" "
 0 0 14 3 5 #"world"
 0 0 24 3 1 #")"
@@ -7007,7 +7006,7 @@
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
 0 0 24 3 2 #" ("
-0 0 14 3 21 #"health-equal-to-zero?"
+0 0 14 3 9 #"end-game?"
 0 0 24 3 2 #" ("
 0 0 14 3 10 #"make-world"
 0 0 24 3 1 #" "
@@ -7030,7 +7029,7 @@
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
 0 0 24 3 2 #" ("
-0 0 14 3 21 #"health-equal-to-zero?"
+0 0 14 3 9 #"end-game?"
 0 0 24 3 2 #" ("
 0 0 14 3 10 #"make-world"
 0 0 24 3 1 #" "
@@ -7047,13 +7046,13 @@
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
 0 0 24 3 14 #"              "
-0 0 21 3 2 #"#f"
+0 0 21 3 2 #"#t"
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
 0 0 24 3 2 #" ("
-0 0 14 3 21 #"health-equal-to-zero?"
+0 0 14 3 9 #"end-game?"
 0 0 24 3 2 #" ("
 0 0 14 3 10 #"make-world"
 0 0 24 3 1 #" "
